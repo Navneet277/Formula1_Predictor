@@ -4,9 +4,13 @@ import numpy as np
 import fastf1
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error
+import os
+
+# Create cache directory if it doesn't exist
+temp_cache_dir = "f1_cache"
+os.makedirs(temp_cache_dir, exist_ok=True)
 
 # Enable caching for FastF1
-temp_cache_dir = "f1_cache"
 fastf1.Cache.enable_cache(temp_cache_dir)
 
 # Load F1 2024 Data

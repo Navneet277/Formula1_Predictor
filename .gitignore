@@ -36,6 +36,7 @@ f1env/
 .streamlit/secrets.toml
 
 # Project specific
-f1_cache/
+f1_cache/*
+!f1_cache/.gitkeep
 *.log
 .DS_Store 
