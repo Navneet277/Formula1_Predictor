@@ -1,3 +1,53 @@
+# F1 Race Prediction Dashboard
+
+A Streamlit-based dashboard that predicts Formula 1 race outcomes based on qualifying times. The application uses historical F1 data and machine learning to provide race predictions.
+
+## Features
+
+- Real-time race predictions based on qualifying times
+- Interactive sliders to adjust qualifying times
+- Historical F1 data integration
+- Machine learning model for predictions
+- Beautiful and intuitive user interface
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Formula1_ML.git
+cd Formula1_ML
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application:
+```bash
+streamlit run f1_streamlit_app.py
+```
+
+## Usage
+
+1. The dashboard will open in your default web browser
+2. Use the sliders in the sidebar to adjust qualifying times
+3. View predicted race results and winner
+4. Check model performance metrics
+
+## Technologies Used
+
+- Python
+- Streamlit
+- FastF1
+- Pandas
+- NumPy
+- Scikit-learn
+
+## Author
+
+Mohit Meharde
+
 # Setting Up `f1env` for F1 Predictions
 
 ## 📌 Overview
