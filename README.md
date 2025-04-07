@@ -14,7 +14,7 @@ A Streamlit-based dashboard that predicts Formula 1 race outcomes based on quali
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/astroid-destroyerw/Formula1_ML.git
+git clone https://github.com/navneet277/Formula1_Predictor.git
 cd Formula1_ML
 ```
 
@@ -30,7 +30,7 @@ streamlit run f1_streamlit_app.py
 
 ## Deployment
 
-This app is deployed on Streamlit Cloud. You can access it at: [F1 Race Prediction Dashboard](https://share.streamlit.io/astroid-destroyerw/Formula1_ML/main/f1_streamlit_app.py)
+This app is deployed on Streamlit Cloud. You can access it at: [F1 Race Prediction Dashboard](https://formula1predictor-277.streamlit.app/)
 
 To deploy your own version:
 1. Fork this repository
