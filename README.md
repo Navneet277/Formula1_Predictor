@@ -59,7 +59,7 @@ To deploy your own version:
 
 ## Author
 
-Mohit Meharde
+Navneet Sharma 
 
 # Setting Up `f1env` for F1 Predictions
 
